@@ -6,6 +6,8 @@
 
 http://miker.php.xdomain.jp/sample/sample.html
 
+http://miker.php.xdomain.jp/page/
+
 レンタルサーバーにFTPしたものです(1週間くらいしたらサイトの方は消します)
 
 
