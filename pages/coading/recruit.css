@@ -1,0 +1,236 @@
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	width: 100%;
+}
+
+
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img {border-style: none; display: block;}
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+.center {
+	margin: 0 auto;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#menubar {
+  width: 100%;
+	max-width: 1140px;
+	height:70px;
+  margin: 0 auto 0 auto;
+  border-bottom: 1px solid silver;
+	padding-top: 20px;
+}
+
+#menubar img{
+  float: left;
+	padding: 10.5px;
+}
+
+#p-number {
+	line-height: 35px;
+}
+
+#right {
+  display: inline-flex;
+  float: right;
+}
+
+#right p{
+	border-right: 1px solid black;
+}
+
+#left{
+	float: left;
+}
+
+#header_contact {
+	float: right;
+	font-size: 14px;
+}
+
+#header_contact p {
+	text-align: right;
+	line-height: 24px;
+}
+
+#header_contact span {
+	font-size: 26px;
+}
+
+#anchor{
+  float: right;
+	padding: 29px 40px 0 0;
+}
+
+#anchor li {
+	float: left;
+	border-right: 1px solid black;
+	padding: 0 20px;
+	height: 18px;
+}
+
+#anchor li a {
+	padding-bottom: 12px;
+	font-size: 14px;
+	display: block;
+	color: black;
+}
+
+#anchor li:first-child {
+	border-left: 1px solid black;
+}
+
+#anchor li:nth-child(3) a {
+	color: #247abc;
+}
+
+
+/*ここから内容*/
+#recruit {
+  width: 920px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 480px){
+#recruit {width: 90%}
+}
+
+@media screen and (min-width: 480px){
+#recruit {width: 920px; margin-top: 30px}
+}
+
+#recruit h2{
+  text-align: center;
+  color: #247abc;
+  font-size: 28px;
+	padding: 50px 0 10px 0;
+	background: url("../img/base/index_bg.png")no-repeat;
+	background-position: bottom;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
+}
+
+#recruit img {
+	margin: 30px auto 30px auto;
+}
+
+@media screen and (max-width: 480px){
+#recruit img {width: 90%}
+}
+
+#recruit p {
+	font-size: 28px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+@media screen and (max-width: 400px){
+	#contents {margin: 0 10px 30px 10px}
+}
+
+@media screen and (min-width: 900px){
+	#contents {margin: 0 100px 50px 100px}
+}
+
+@media screen and (max-width: 480px){
+	span {font-size: 15px}
+}
+
+#contents img{
+	margin: 30px auto 30px auto;
+}
+
+@media screen and (max-width: 480px){
+#contents img {width: 100%}
+}
+
+#contents h3 {
+	font: 20px;
+	color: #247abc;
+	border-bottom: 1px solid #247abc;
+}
+
+#box {
+	margin: 50px 0 50px 0;
+}
+
+#box ul li {
+	padding: 20px 0;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.box-left {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.box-right {
+	width: 70%;
+	display: inline-block;
+}
+
+
+
+/*footer*/
+#foot a {
+	display: block;
+	text-align: center;
+	padding: 20px 0 20px;
+}
+
+#foot address {
+	text-align: center;
+	padding-bottom: 10px;
+}
