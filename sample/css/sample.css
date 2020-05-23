@@ -1,0 +1,417 @@
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	width: 100%;
+}
+
+/*クラス定義*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img {border-style: none; display: block;}
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+.center {
+	margin: 0 auto;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#navbar {
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 5px 50px;
+	z-index: 9999;
+	display: none;
+}
+
+#navbar img {
+	height: 100%;
+	float: left;
+}
+
+#navbar ul {
+	padding-top: 40px;
+	height: 30px;
+	float: right;
+	text-align: right;
+}
+
+#navbar ul li {
+	display: inline-block;
+	width: 90px;
+	line-height: 30px;
+	text-align: center;
+}
+
+#navbar ul li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+}
+
+#eye_catch {
+	width: 100%;
+	height: 100vh;
+	background: url("../images/main1.jpg") no-repeat;
+	background-size: 120%;
+	background-position: center center;
+}
+
+#mask {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+#catch_copy {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: calc(50% - 100px);
+	left: 0;
+	display: none;
+}
+
+#catch_copy p {
+	font-size: 80px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+}
+
+#main_img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-image: url("../images/main3_left.png"), url("../images/main3_right.png");
+	background-position: left top, right bottom;
+	background-repeat: no-repeat;
+	background-size: auto 100%, auto 100%;
+}
+
+#main_img img.logo {
+	width: 25%;
+	position: absolute;
+	left: 37.5%;
+	top: 40%;
+}
+
+#mask {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	z-index: 9998;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#work {
+	background-image: url(".../images/img/base/work_bg.png");
+	background-attachment: fixed;
+	background-size: 1920px auto;
+	background-repeat: no-repeat;
+	padding: 200px 0 100px 0;
+	background-position: center center;
+}
+
+#work_text {
+	width: 50%;
+	float: right;
+}
+
+#work_text p {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#work_text p.index {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+
+#second {
+    background-image: url("../images/work_bg.png");
+		background-attachment: fixed;
+		background-size: 1920px auto;
+		background-repeat: no-repeat;
+		padding: 200px 0 100px 0;
+		background-position: center center;
+}
+
+#second-text {
+	width: 50%;
+	float: right;
+}
+
+#second-text p{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#second-text p.emphasize {
+	font-size: 24px;
+	line-height: 50px;
+}
+
+#main {
+
+}
+
+#third {
+  background-color: #fff;
+  width: 100%;
+  padding: 200px 0 100px 0;
+  position: relative;
+}
+
+#third p {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#human1 {
+  position: absolute;
+  top: 150px;
+  left: calc(50% + 100px);
+  width: 80px;
+}
+
+.pic-bg {
+  width: 100%;
+}
+
+#forth {
+  background-image: url("../images/recruite_bg.png");
+	background-attachment: fixed;
+	background-size: 1920px auto;
+	background-repeat: no-repeat;
+	padding: 200px 0 100px 0;
+	background-position: center center;
+}
+
+#recruite1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#recruite2 {
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  width: 200px;
+}
+
+#box-area {
+  width: 640px;
+  margin: 20px auto;
+}
+.box1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box1 p {
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#box2{
+  clear: both;
+  width: 620px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: left;
+}
+
+.box2-text {
+  width: 50%;
+  float: left;
+}
+
+.box2-text p{
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+/*ここから会社概要*/
+#company {
+  position: relative;
+  padding: 200px 0 100px 0;
+}
+#company-title {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+#human2 {
+  width: 80px;
+  position: absolute;
+  top: 270px;
+  left: calc(50% - 400px);
+}
+
+#company table {
+  margin: 0 auto;
+  width: 780px;
+}
+
+#company tr {
+  height: 50px;
+}
+
+#company table th {
+  width: 200px;
+  text-align: center;
+}
+
+#company td {
+  padding-left: 20px;
+}
+
+#contact {
+  padding: 200px 0 100px 0;
+	position: relative;
+}
+
+#contact-text {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+#human3 {
+	position: absolute;
+	top: 170px;
+	left: calc(50% + 120px);
+	width: 80px;
+}
+
+#writting table{
+  width: 780px;
+  margin: 0 auto;
+}
+
+#writting tr {
+  height: 40px;
+}
+
+#writting th {
+  width: 200px;
+  text-align: center;
+}
+
+#writting input{
+  width: 90%;
+  line-height: 24px;
+  padding-left: 20px;
+}
+
+#writting textarea {
+  width: 90%;
+  height: 150px;
+  padding: 10px 20px;
+  resize: none;
+}
+
+#alert {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  display: none;
+}
+
+#contact #send {
+    width: 178px;
+    margin: 50px auto 0 auto;
+    cursor: pointer;
+}
+
+#map_canvas {
+	width: 100%;
+	height: 450px;
+	border-top: 2px solid #acf;
+	border-bottom: 2px solid #acf;
+}
+
+address {
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+}
