@@ -10,7 +10,7 @@ http://miker.php.xdomain.jp/page/
 
 http://miker.php.xdomain.jp/pages/coading/home.html
 
-レンタルサーバーにFTPしたものです(1週間くらいしたらサイトの方は消します)
+レンタルサーバーにFTPしたものです
 
 
 # Requirement
